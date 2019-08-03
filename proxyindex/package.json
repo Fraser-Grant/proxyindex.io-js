@@ -1,0 +1,30 @@
+{
+  "name": "proxyindex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.205:10080/proxy_index/package_js"
+  },
+  "author": "Connor Fraser-Grant",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.9",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "http": "0.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
