@@ -1,6 +1,6 @@
 {
   "name": "proxyindex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Proxyindex api package",
   "main": "dist/index.js",
   "scripts": {
