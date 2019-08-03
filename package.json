@@ -1,6 +1,6 @@
 {
   "name": "proxyindex",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Proxyindex api package",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://192.168.1.205:10080/proxy_index/package_js"
+    "url": "https://github.com/Fraser-Grant/proxyindex.io-js"
   },
   "author": "Connor Fraser-Grant",
   "license": "ISC",
