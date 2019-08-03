@@ -2,5 +2,6 @@
 const request = require('request-promise-native');
 
 module.exports = async () =>{
-    return await JSON.parse(request("https://api.proxyindex.io/list"));
+    let data = await request("https://api.proxyindex.io/list")
+    return JSON.parse(data);
 }

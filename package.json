@@ -1,7 +1,7 @@
 {
   "name": "proxyindex",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Proxyindex api package",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
